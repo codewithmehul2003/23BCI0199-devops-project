@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>College Technical Symposium 2026</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    min-height:100vh;
+    color:white;
+}
+
+/* Header */
+
+header{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#38bdf8;
+    color:black;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Cards */
+
+.container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    padding-bottom:50px;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0px 5px 20px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.card ul{
+    padding-left:20px;
+}
+
+.card li{
+    margin:10px 0;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:rgba(0,0,0,0.3);
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TECH SYMPOSIUM 2026</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">Speakers</a>
+        <a href="#">Register</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Annual College Technical Symposium</h1>
+    <p>Innovation • Technology • Excellence</p>
+
+    <a href="#" class="btn">Register Now</a>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🚀 Events</h2>
+
+        <ul>
+            <li>Hackathon</li>
+            <li>AI Workshop</li>
+            <li>Paper Presentation</li>
+            <li>Coding Contest</li>
+            <li>Project Expo</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🎤 Speakers</h2>
+
+        <p><b>Chief Guest:</b></p>
+        <br>
+
+        <p>Dr. A.P. Sharma</p>
+        <p>Director, AI Research Lab</p>
+
+        <br>
+
+        <p>Prof. Mehul Kumar</p>
+        <p>Cyber Security Expert</p>
+    </div>
+
+    <div class="card">
+        <h2>📢 Announcements</h2>
+
+        <p>✔ Registration closes on 30 July 2026</p>
+        <br>
+        <p>✔ Symposium Date: 15 August 2026</p>
+        <br>
+        <p>✔ Venue: College Main Auditorium</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 College Technical Symposium | Department of Computer Science
+</footer>
+
+</body>
+</html>
